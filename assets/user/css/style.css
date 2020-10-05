@@ -1,0 +1,105 @@
+section{
+	min-height: 420px;
+}
+.cart{
+	margin-top: 5px;
+	padding-right: 2px;
+	
+}
+	
+.badge-counter{
+ 
+  transform: scale(0.5);
+  
+}
+.dropdown-menu{
+ 
+  margin-left: 10%;
+  
+}
+.caption {
+  font-family: Arial;
+  letter-spacing: 6px;
+  color: #fff;
+  position: absolute ;
+  top: 15% ;
+  left: 15% ;
+  width: 70% ;
+}
+.caption h1, .caption h3 {
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron{
+    height: 460px;
+    background-image: url('../img/header-b.png');
+    background-attachment: fixed;
+    background-size: cover ;
+    background-position: 0 -20px;
+	overflow: hidden;
+	margin-top: 100px;	
+}
+
+.card p{
+	margin-top: -10px;
+	margin-bottom: 1px;
+}
+
+.row .card:hover{
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+	transform: scale(1.02);
+}
+
+.jumbotron h1, .jumbotron p{
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+.jumbotron img{
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);;
+}
+
+.pkiri, .pkanan {
+    opacity: 0;
+    transform: translate(-50px, 0) rotate(15deg);
+    transition: 1s;
+}
+
+.pkanan {
+    transform: translate(50px, 0) rotate(-15deg);
+}
+
+.pkiri.pmuncul, .pkanan.pmuncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.portfolio .fahmi{
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: .5s;
+}
+
+.portfolio .fahmi.muncul {
+    opacity: 1;
+	transform: translate(0,0);
+}
+.perempuan .fahmi{
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: .5s;
+}
+
+.perempuan .fahmi.muncul {
+    opacity: 1;
+	transform: translate(0,0);
+}
+.pria .fahmi{
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: .5s;
+}
+
+.pria .fahmi.muncul {
+    opacity: 1;
+	transform: translate(0,0);
+}
+
